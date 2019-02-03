@@ -137,7 +137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   terrainTilePrefab: {fileID: 1986053826586164, guid: 8ed8d0bf208b64347be8d11f67a1d669,
     type: 2}
-  terrainSize: {x: 50, y: 5, z: 50}
+  terrainSize: {x: 40, y: 5, z: 40}
   gradient:
     serializedVersion: 2
     key0: {r: 0.3897059, g: 0.19485295, b: 0.19485295, a: 1}
@@ -167,9 +167,9 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  noiseScale: 3
+  noiseScale: 6.89
   cellSize: 1
-  radiusToRender: 5
+  radiusToRender: 3
   gameTransforms:
   - {fileID: 734672108}
   playerTransform: {fileID: 1167811328}
@@ -178,11 +178,11 @@ MonoBehaviour:
   placeableObjects:
   - prefab: {fileID: 1083373213251270, guid: 64a8cdb6fe4f5f14889d1b9ea7b540fe, type: 2}
     size: {x: 1, y: 1, z: 1}
-    min: 10
-    max: 50
+    min: 20
+    max: 40
   - prefab: {fileID: 100038, guid: eabfe75d5a58db24a8f9f8d389ecfe18, type: 3}
     size: {x: 1, y: 1, z: 1}
-    min: 0
+    min: -80
     max: 1
   destroyDistance: 1000
   usePerlinNoise: 1
