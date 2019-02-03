@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\Leo H\\Documents\\GitHub\\YelpMaze\\Yelp Maze Game\\Assembly-CSharp.csproj",
+  "TargetFramework": "v3.5",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
