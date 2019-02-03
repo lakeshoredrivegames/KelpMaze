@@ -1,0 +1,51 @@
+newmtl pCube18SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Table.jpg
+Ni 1.00
+newmtl pCylinder40SG
+illum 4
+Kd 0.54 0.54 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl pCylinder40SG1
+illum 4
+Kd 0.16 0.09 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl pSphere15SG
+illum 4
+Kd 0.28 0.00 0.28
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl pasted__pCube17SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Table.jpg
+Ni 1.00
+newmtl pasted__pSphere13SG
+illum 4
+Kd 1.00 0.31 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl pasted__pSphere14SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Pineapple.jpg
+Ni 1.00
+newmtl pasted__pSphere14SG1
+illum 4
+Kd 0.00 0.38 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
