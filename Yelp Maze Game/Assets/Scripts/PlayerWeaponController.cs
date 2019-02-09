@@ -29,7 +29,7 @@ public class PlayerWeaponController : MonoBehaviour {
 		equippedWeapon.Stats = itemToEquip.Stats;
 		EquippedWeapon.transform.SetParent(swordArm.transform);
 		characterStats.AddStatBonus(itemToEquip.Stats);
-		Debug.Log(equippedWeapon.Stats[0]);
+		Debug.Log(itemToEquip.Stats);
 	}
 	
 	public void PerformWeaponAttack()

@@ -515,19 +515,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1583241897}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1167811324
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1167811323}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 577a2140dd0c37844b0467383f9b42a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerWeaponController: {fileID: 0}
 --- !u!4 &1167811328 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4411469094863074, guid: 1a1a73ad6275c2b4fba272b5bc4f0ec5,
@@ -543,17 +530,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1167811323}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b28c208bd09efe4f97e0bf9596859ae, type: 3}
+  m_Script: {fileID: 11500000, guid: 195d57afa36371d47949e5cdab70eced, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  swordArm: {fileID: 843973176}
+--- !u!114 &1167811330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167811323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 577a2140dd0c37844b0467383f9b42a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  terrainController: {fileID: 0}
-  distance: 10
+  playerWeaponController: {fileID: 0}
 --- !u!114 &1167811331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -566,19 +559,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 667bec7d126a85d4cb503e292d4d196e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1167811332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1167811323}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 195d57afa36371d47949e5cdab70eced, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  swordArm: {fileID: 843973176}
 --- !u!1 &1264163622
 GameObject:
   m_ObjectHideFlags: 0
