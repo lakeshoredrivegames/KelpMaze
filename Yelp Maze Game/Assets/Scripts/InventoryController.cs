@@ -8,6 +8,7 @@ public class InventoryController : MonoBehaviour {
 	
 	void Start()
 	{
+		playerWeaponController = GetComponent<PlayerWeaponController>();
 		List<BaseStat> swordStats = new List<BaseStat>();
 		swordStats.Add(new BaseStat(6, "Power", "Your power level."));
 		sword = new Item(swordStats, "sword");

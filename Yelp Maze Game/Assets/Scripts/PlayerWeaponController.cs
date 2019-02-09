@@ -7,7 +7,7 @@ public class PlayerWeaponController : MonoBehaviour {
 	public GameObject swordArm;
 	public GameObject EquippedWeapon { get; set; }
 
-	iWeapon equippedWeapon;
+	IWeapon equippedWeapon;
 	
 	CharacterStats characterStats;
 	void Start()
@@ -19,13 +19,13 @@ public class PlayerWeaponController : MonoBehaviour {
 	{
 		if (EquippedWeapon != null)
 		{
-			characterStats.RemoveStatBonus(EquippedWeapon.GetComponent<iWeapon>().Stats);
+			characterStats.RemoveStatBonus(EquippedWeapon.GetComponent<IWeapon>().Stats);
 			Destroy(swordArm.transform.GetChild(0).gameObject);
 		}
 
-		EquippedWeapon = (GameObject)Instantiate(Resources.Load<GameObject>("Weapon/" + itemToEquip.ObjectSlug), 
+		EquippedWeapon = (GameObject)Instantiate(Resources.Load<GameObject>("Weapons/" + itemToEquip.ObjectSlug), 
 			swordArm.transform.position, swordArm.transform.rotation);
-		equippedWeapon = EquippedWeapon.GetComponent<iWeapon>();
+		equippedWeapon = EquippedWeapon.GetComponent<IWeapon>();
 		equippedWeapon.Stats = itemToEquip.Stats;
 		EquippedWeapon.transform.SetParent(swordArm.transform);
 		characterStats.AddStatBonus(itemToEquip.Stats);

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface iWeapon {
+public interface IWeapon {
 	List<BaseStat> Stats { get; set; }
 	void PerformAttack();
 }
