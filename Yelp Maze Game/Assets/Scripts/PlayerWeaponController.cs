@@ -20,18 +20,22 @@ public class PlayerWeaponController : MonoBehaviour {
 		if (EquippedWeapon != null)
 		{
 			characterStats.RemoveStatBonus(EquippedWeapon.GetComponent<IWeapon>().Stats);
-			Destroy(swordArm.transform.GetChild(0).gameObject);
+			Destroy(EquippedWeapon.gameObject);
 		}
 
-		EquippedWeapon = (GameObject)Instantiate(Resources.Load<GameObject>("Weapons/" + itemToEquip.ObjectSlug), 
-			swordArm.transform.position, swordArm.transform.rotation);
+		EquippedWeapon = (GameObject)Instantiate(Resources.Load<GameObject>("Weapons/" + itemToEquip.ObjectSlug));
 		equippedWeapon = EquippedWeapon.GetComponent<IWeapon>();
 		equippedWeapon.Stats = itemToEquip.Stats;
-		EquippedWeapon.transform.SetParent(swordArm.transform);
+		EquippedWeapon.transform.SetParent(swordArm.transform, false);
 		characterStats.AddStatBonus(itemToEquip.Stats);
 		Debug.Log(itemToEquip.Stats);
 	}
 	
+	void Update()
+	{
+		if (Input.GetMouseButtonDown(0))
+			PerformWeaponAttack();
+	}
 	public void PerformWeaponAttack()
 	{
 		equippedWeapon.PerformAttack();
