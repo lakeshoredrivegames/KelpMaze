@@ -21,6 +21,7 @@ public class Sword : MonoBehaviour, IWeapon
     {
         if (col.tag == "Breakable");
         {
+            animator.SetTrigger("BaseAttackCollide");
             col.GetComponent<IBreakable>().TakeDamage(Stats[0].GetCalculatedStatValue());
         }
     }
