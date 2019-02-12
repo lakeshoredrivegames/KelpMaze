@@ -14,3 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/proceduralgentest.unity
     guid: 7f9f459831b1719439ae50b894ba6f78
+  - enabled: 1
+    path: Assets/Scenes/WinCondition.unity
+    guid: 37ac930c44c1ecd48a52f3d5e2d906f4
+  m_configObjects: {}
