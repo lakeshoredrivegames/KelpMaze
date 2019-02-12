@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets.Utility;
+using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 namespace UnityStandardAssets.Characters.FirstPerson
@@ -57,10 +58,52 @@ namespace UnityStandardAssets.Characters.FirstPerson
 			m_MouseLook.Init(transform , m_Camera.transform);
         }
 
+        public bool isPaused;
+        public Text PauseText;
+        public Button RestartButton;
+        public Button QuitButton;
 
         // Update is called once per frame
         private void Update()
         {
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                Timer timer = this.gameObject.GetComponent<Timer>();
+                if (!isPaused)
+                {
+                    this.gameObject.GetComponent<CharacterController>().enabled = false;
+                    m_UseHeadBob = false;
+                    PauseText.enabled = true;
+                    RestartButton.enabled = true;
+                    RestartButton.gameObject.SetActive(true);
+                    QuitButton.enabled = true;
+                    QuitButton.gameObject.SetActive(true);
+                    timer.isTiming = false;
+                    isPaused = true;
+                    Cursor.lockState = CursorLockMode.None;
+                    Cursor.lockState = CursorLockMode.Confined;
+                    Cursor.visible = true;
+                }
+                else
+                {
+                    this.gameObject.GetComponent<CharacterController>().enabled = true;
+                    m_UseHeadBob = true;
+                    PauseText.enabled = false;
+                    RestartButton.enabled = false;
+                    RestartButton.gameObject.SetActive(false);
+                    QuitButton.enabled = false;
+                    QuitButton.gameObject.SetActive(false);
+                    timer.isTiming = true;
+                    isPaused = false;
+                    Cursor.lockState = CursorLockMode.None;
+                    Cursor.lockState = CursorLockMode.Locked;
+                    Cursor.visible = false;
+                }
+            }
+
+            if (isPaused)
+                return;
+
             RotateView();
             // the jump state needs to read here to make sure it is not missed
             if (!m_Jump)
@@ -94,6 +137,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void FixedUpdate()
         {
+            if (isPaused)
+                return;
+
             float speed;
             GetInput(out speed);
             // always move along the camera forward as it is the direction that it being aimed at
