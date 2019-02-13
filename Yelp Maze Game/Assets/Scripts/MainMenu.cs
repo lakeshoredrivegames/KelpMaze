@@ -13,6 +13,11 @@ public class MainMenu : MonoBehaviour
     public void StartGame()
     {
         GameObject hut = GameObject.Find("Hut");
+        if (!hut)
+        {
+            SceneManager.LoadScene("KelpForest");
+            return;
+        }
         hutDirector = hut.gameObject.GetComponent<PlayableDirector>();
         hutDirector.Play();
         hasPlayedIntro = true;
@@ -38,7 +43,7 @@ public class MainMenu : MonoBehaviour
         if (hutDirector && hutDirector.state == PlayState.Playing)
             return;
         if (hasPlayedIntro)
-            SceneManager.LoadScene("proceduralgentest");
+            SceneManager.LoadScene("KelpForest");
     }
 
     private PlayableDirector hutDirector;

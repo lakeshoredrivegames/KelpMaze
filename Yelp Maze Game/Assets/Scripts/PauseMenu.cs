@@ -5,6 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    public void Restart() { SceneManager.LoadScene("proceduralgentest"); }
+    public void Restart() { SceneManager.LoadScene("KelpForest"); }
     public void Quit() { SceneManager.LoadScene("MainMenu"); }
 }
