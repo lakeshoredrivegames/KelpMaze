@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Breakable
+  - Terrain
+  - Hook
   layers:
   - Default
   - TransparentFX
