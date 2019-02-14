@@ -103,8 +103,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 8.125239, y: 13.231833, z: 1.570821}
-  m_Center: {x: -0.24968384, y: -2.0648456, z: -0.28541043}
+  m_Size: {x: 8.125239, y: 23.125423, z: 1.570821}
+  m_Center: {x: -0.24968384, y: 2.881937, z: -0.28541046}
 --- !u!114 &1325898609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,7 +126,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 694ee5807a49ddf469e0addb2f43fa8d, type: 3}
       propertyPath: m_Name
-      value: Hook1
+      value: Hook1 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 694ee5807a49ddf469e0addb2f43fa8d, type: 3}
       propertyPath: m_TagString
@@ -175,6 +175,18 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 694ee5807a49ddf469e0addb2f43fa8d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694ee5807a49ddf469e0addb2f43fa8d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.48964
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694ee5807a49ddf469e0addb2f43fa8d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.48964
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694ee5807a49ddf469e0addb2f43fa8d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.48964
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 694ee5807a49ddf469e0addb2f43fa8d, type: 3}
       propertyPath: m_LocalPosition.y
