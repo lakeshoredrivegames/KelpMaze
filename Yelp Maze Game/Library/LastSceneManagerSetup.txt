@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/LeoLevelConcept1.unity
+- path: Assets/Scenes/KelpForest.unity
   isLoaded: 1
   isActive: 1

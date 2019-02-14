@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: lambert4SG
     2100002: lambert3SG
+    2100004: PatMat
     2300000: Pat
     3300000: Pat
     4300000: Pat
