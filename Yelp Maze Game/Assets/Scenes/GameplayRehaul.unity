@@ -659,10 +659,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 3
-  minimumSwordLevel: 0
+  minimumSwordLevel: 1
   attackedClip: {fileID: 8300000, guid: 89526260a6076764c91b2576963b280b, type: 3}
   brokenClip: {fileID: 8300000, guid: 3b09d59f4499d45428baa7a21e954296, type: 3}
   audio: {fileID: 0}
+  isShaking: 0
 --- !u!1 &825196292
 GameObject:
   m_ObjectHideFlags: 0
@@ -1659,10 +1660,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 3
-  minimumSwordLevel: 0
+  minimumSwordLevel: 1
   attackedClip: {fileID: 8300000, guid: 89526260a6076764c91b2576963b280b, type: 3}
   brokenClip: {fileID: 8300000, guid: 3b09d59f4499d45428baa7a21e954296, type: 3}
   audio: {fileID: 0}
+  isShaking: 0
 --- !u!1001 &1985701400
 PrefabInstance:
   m_ObjectHideFlags: 0
