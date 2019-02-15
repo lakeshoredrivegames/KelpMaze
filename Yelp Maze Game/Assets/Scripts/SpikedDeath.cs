@@ -10,7 +10,6 @@ public class SpikedDeath : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Destroy(other.gameObject);
             Spiked();
         }
 
@@ -19,7 +18,7 @@ public class SpikedDeath : MonoBehaviour
     // Update is called once per frame
     void Spiked()
     {
-        SceneManager.LoadScene("SpikedDeath");
+        SceneManager.LoadScene("SpikedScene");
     }
         
     

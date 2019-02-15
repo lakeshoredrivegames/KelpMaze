@@ -17,7 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WinCondition.unity
     guid: 37ac930c44c1ecd48a52f3d5e2d906f4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/HookedCondition.unity
     guid: 8d373461d3eb3c9448fdec63811409ab
+  - enabled: 1
+    path: Assets/Scenes/HookedScene.unity
+    guid: 8c1a90fcfa882c343874f61db2202a3b
+  - enabled: 1
+    path: Assets/Scenes/SpikedScene.unity
+    guid: e5a70ad4c25ca8f4cbf50befa7f7ecbc
   m_configObjects: {}

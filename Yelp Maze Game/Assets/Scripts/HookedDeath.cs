@@ -10,7 +10,6 @@ public class HookedDeath : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Destroy(other.gameObject);
             Hooked();
         }
 
@@ -19,7 +18,7 @@ public class HookedDeath : MonoBehaviour
     // Update is called once per frame
     void Hooked()
     {
-        SceneManager.LoadScene("HookedDeath");
+        SceneManager.LoadScene("HookedScene");
     }
         
     
