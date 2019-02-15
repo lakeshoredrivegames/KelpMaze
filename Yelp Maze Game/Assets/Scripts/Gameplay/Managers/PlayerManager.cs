@@ -160,7 +160,11 @@ namespace KelpMaze.Gameplay
         public AudioSource audio;
 
         public AudioClip equipSwordClip;
+        public AudioClip swingSwordClip;
         public AudioClip swordHitClip;
+
+        public AudioClip equipBranchClip;
+        public AudioClip swingBranchClip;
 
         public AudioClip equipConchClip;
         public AudioClip useConchClipNo;

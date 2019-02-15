@@ -25,14 +25,21 @@ namespace KelpMaze.Gameplay
 
         private void Update()
         {
-            Command cmd = this.HandleInput();
-            if (cmd != null) cmd.Execute(playerManager);
+            if(!worldManager.IsPaused)
+            {
+                Command cmd = this.HandleInput();
+                if (cmd != null) cmd.Execute(playerManager);
+            }
+            if(Input.GetKeyDown(KeyCode.Escape)) { worldManager.PauseGame(); }
         }
 
         private void FixedUpdate()
         {
-            Command cmd = this.FixedHandleInput();
-            if (cmd != null) cmd.Execute(playerManager);
+            if(!worldManager.IsPaused)
+            {
+                Command cmd = this.FixedHandleInput();
+                if (cmd != null) cmd.Execute(playerManager);
+            }
         }
 
         public Command HandleInput()
@@ -46,16 +53,6 @@ namespace KelpMaze.Gameplay
         {
             return move;
         }
-
-        /*
-        // Equipables
-        // Main Hand: Sword
-        // OffHand: Lantern, Conch
-        private EquipSwordCommand equipSword; // Sword collides with player then sets playermanager hasSword to true
-        private EquipConchCommand equipConch; // 
-        private EquipLanternCommand equipLantern;
-        private ActivateOffHandCommand activateOffHand;
-        */
 
         private WorldManager worldManager;
         private PlayerManager playerManager;
