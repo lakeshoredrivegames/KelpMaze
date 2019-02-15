@@ -18,8 +18,19 @@ namespace KelpMaze.Gameplay
             else
             {
                 Debug.Log("Swinging the sword!");
-                Animator anim = player.swordMesh.GetComponent<Animator>();
-                anim.Play("SwordSlash");
+                Animator anim;
+                if(player.swordLevel == 1)
+                {
+                    anim = player.branchMesh.GetComponent<Animator>();
+                }
+                else
+                {
+                    anim = player.swordMesh.GetComponent<Animator>();
+                }
+                if(anim != null)
+                {
+                    anim.Play("SwordSlash");
+                }
                 player.audio.clip = player.equipSwordClip;
                 player.audio.Play();
 

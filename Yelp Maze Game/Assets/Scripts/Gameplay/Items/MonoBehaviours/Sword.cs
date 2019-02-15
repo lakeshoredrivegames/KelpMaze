@@ -13,8 +13,7 @@ namespace KelpMaze.Gameplay
             {
                 Debug.Log(other.gameObject.name);
                 PlayerManager manager = other.gameObject.GetComponentInChildren<PlayerManager>();
-                if (!manager.hasSword)
-                    manager.AddSwordToInventory();
+                manager.AddSwordToInventory();
             }
         }
     }
