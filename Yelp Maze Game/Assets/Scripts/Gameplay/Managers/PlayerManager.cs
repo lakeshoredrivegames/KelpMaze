@@ -122,6 +122,7 @@ namespace KelpMaze.Gameplay
             if(hasSword)
             {
                 LevelUpSword();
+                currentItem = sword;
                 return;
             }
 

@@ -8,8 +8,10 @@ namespace KelpMaze.Gameplay
     {
         public ConchItem()
         {
-           noClips = new List<AudioClip>();
+            noClips = new List<AudioClip>();
             isCooling = false;
+            playerController = GameObject.Find("Player").GetComponent<FirstPersonController>();
+            playerSpeed = playerController.m_WalkSpeed;
         }
         public override void Execute(PlayerManager player)
         {
@@ -34,6 +36,8 @@ namespace KelpMaze.Gameplay
                     player.audio.Play();
                     isCooling = true;
                     conchCooldownTime = Time.time + conchCooldown;
+                    playerController.m_WalkSpeed = playerSpeed + 1f;
+                    playerController.upgradeCoolDown = Time.time + conchUpgradeCooldown;
                 }
 
                 isGlobalCooling = true;
@@ -48,13 +52,17 @@ namespace KelpMaze.Gameplay
             }
         }
 
+        private float playerSpeed;
+        private FirstPersonController playerController;
+
         private List<AudioClip> noClips;
-        private float conchCooldown = 5f;
+        private float conchCooldown = 20f;
+        private float conchUpgradeCooldown = 5f;
         private bool isCooling;
         private float conchCooldownTime;
 
         private float globalCooldownTime;
-        private float globalConchCooldown = 3f;
+        private float globalConchCooldown = 1f;
         private bool isGlobalCooling;
     }
 }
