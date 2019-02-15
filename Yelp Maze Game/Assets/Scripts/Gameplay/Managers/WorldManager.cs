@@ -17,12 +17,15 @@ namespace KelpMaze.Gameplay
         public void Start()
         {
             IsPaused = false;
+            timer = this.gameObject.GetComponent<Timer>();
+            timer.isTiming = true;
         }
 
         public void PauseGame()
         {
             if(!IsPaused)
             {
+                timer.isTiming = false;
                 Cursor.visible = true;
                 PauseText.enabled = true;
                 RestartButton.gameObject.SetActive(true);
@@ -33,6 +36,7 @@ namespace KelpMaze.Gameplay
             }
             else
             {
+                timer.isTiming = true;
                 Cursor.visible = false;
                 PauseText.enabled = false;
                 RestartButton.gameObject.SetActive(false);
@@ -48,5 +52,6 @@ namespace KelpMaze.Gameplay
         public Button QuitButton;
 
         public bool IsPaused;
+        private Timer timer;
     }
 }
