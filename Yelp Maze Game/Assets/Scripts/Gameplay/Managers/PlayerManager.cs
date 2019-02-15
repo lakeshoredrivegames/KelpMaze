@@ -70,12 +70,23 @@ namespace KelpMaze.Gameplay
                 if(currentItem == conch)
                 {
                     swordMesh.SetActive(false);
+                    branchMesh.SetActive(false);
                     conchMesh.SetActive(true);
                 }
                 else if (currentItem == sword)
                 {
-                    conchMesh.SetActive(false);
-                    swordMesh.SetActive(true);
+                    if(swordLevel == 1)
+                    {
+                        conchMesh.SetActive(false);
+                        swordMesh.SetActive(false);
+                        branchMesh.SetActive(true);
+                    }
+                    else
+                    {
+                        conchMesh.SetActive(false);
+                        branchMesh.SetActive(false);
+                        swordMesh.SetActive(true);
+                    }
                 }
 
                 if(currentItem != prevItem)
@@ -89,7 +100,10 @@ namespace KelpMaze.Gameplay
         public void AddConchToInventory()
         {
             if (currentItem == sword)
+            {
+                branchMesh.SetActive(false);
                 swordMesh.SetActive(false);
+            }
 
             Debug.Log("Adding conch to inventory!");
             hasConch = true;
@@ -102,14 +116,14 @@ namespace KelpMaze.Gameplay
 
         public void AddSwordToInventory()
         {
+            if (currentItem == conch)
+                conchMesh.SetActive(false);
+
             if(hasSword)
             {
                 LevelUpSword();
                 return;
             }
-
-            if (currentItem == conch)
-                conchMesh.SetActive(false);
 
             Debug.Log("Adding sword to inventory!");
             hasSword = true;
