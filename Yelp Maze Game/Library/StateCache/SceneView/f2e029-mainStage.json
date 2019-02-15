@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":-34.3228645324707,"y":-33.5111083984375,"z":-61.42037582397461},"rotation":{"x":-0.12217293679714203,"y":-0.5329344868659973,"z":0.07810523360967636,"w":-0.8336391448974609},"size":16.180065155029298,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":false,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":-55.627384185791019,"y":-35.69682693481445,"z":-17.685100555419923},"rotation":{"x":-0.09178151935338974,"y":-0.5692017078399658,"z":0.06413619965314865,"w":-0.8145380616188049},"size":5.73752498626709,"orthographic":false}
+>>>>>>> FinalDesignPass
