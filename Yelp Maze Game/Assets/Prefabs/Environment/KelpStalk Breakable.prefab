@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!65 &1247523937297597171
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4155892327477564669}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.159941, y: 19.35451, z: 9.75113}
+  m_Center: {x: -0.14212933, y: 9.677255, z: 0.94739455}
 --- !u!82 &2289035393130736121
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9,7 +22,8 @@ AudioSource:
   m_GameObject: {fileID: 4155892327477564669}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 9ed7b4d43712b094eb0c1f92e8723a6f,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 3ae4d03d9cb45a94fb722e9e2faa0fd3, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -96,7 +110,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &5156611909602588427
+--- !u!114 &3493120448405972042
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -105,38 +119,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 4155892327477564669}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e693dd54a4b3954392895ea6611a21d, type: 3}
+  m_Script: {fileID: 11500000, guid: cd919781e4f95b249ab6bc7eaf6c38a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealth: 0
-  power: 0
-  toughness: 0
-  maxHealth: 0
---- !u!114 &6571056162653360121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4155892327477564669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0066d541a8a4ee04badd7d9637621eb0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!65 &1247523937297597171
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4155892327477564669}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 7.159941, y: 19.35451, z: 9.75113}
-  m_Center: {x: -0.14212933, y: 9.677255, z: 0.94739455}
+  Health: 0
+  minimumSwordLevel: 0
+  attackedClip: {fileID: 8300000, guid: 3ae4d03d9cb45a94fb722e9e2faa0fd3, type: 3}
+  brokenClip: {fileID: 8300000, guid: ac3d142e3655caf4eb579acd4725f2ad, type: 3}
+  audio: {fileID: 0}
+  isShaking: 0
 --- !u!1001 &4155892327477662301
 PrefabInstance:
   m_ObjectHideFlags: 0
