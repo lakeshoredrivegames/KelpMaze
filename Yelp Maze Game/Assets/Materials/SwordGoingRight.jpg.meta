@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: b0bfb114d4ac13e4ba27450e183d3c35
+=======
+guid: 34d8e2b99046b8242895eef59116dc3c
+>>>>>>> FinalDesignPass
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}

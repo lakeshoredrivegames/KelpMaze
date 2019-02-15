@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class HookKill : MonoBehaviour
+public class SpikedDeath : MonoBehaviour
 {
     // Start is called before the first frame update
     void OnTriggerEnter(Collider other)
@@ -11,15 +11,15 @@ public class HookKill : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             Destroy(other.gameObject);
-            Hooked();
+            Spiked();
         }
 
     }
 
     // Update is called once per frame
-    void Hooked()
+    void Spiked()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene("SpikedDeath");
     }
         
     

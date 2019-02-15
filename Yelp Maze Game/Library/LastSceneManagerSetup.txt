@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/WinScreen.unity
+- path: Assets/Scenes/KelpForest.unity
   isLoaded: 1
   isActive: 1
