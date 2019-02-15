@@ -65,7 +65,7 @@ namespace KelpMaze.Gameplay
         }
 
         private float maxAttackRange = 1f;
-        private float swordCooldown = 1f;
+        private float swordCooldown = 0.5f;
         private bool isCooling;
         private float swordCooldownTime;
         private ParticleSystem playerParticles;

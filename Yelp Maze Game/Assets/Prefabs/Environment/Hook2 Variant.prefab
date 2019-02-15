@@ -105,18 +105,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 12.416314, y: 23.58498, z: 4.8447137}
   m_Center: {x: 4.4750543, y: 16.019413, z: 6.5574737}
---- !u!114 &1054833700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4546637365321988105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a160438662b64de4d89eba896b2d4dd6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6518492734207059993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,6 +121,18 @@ MonoBehaviour:
   amplitude: 0.5
   frequency: 1
   seconds: 1
+--- !u!114 &1874387194540033825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4546637365321988105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b9c6835f2605c458dd5be0e8ebd73d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4546637365322022571
 PrefabInstance:
   m_ObjectHideFlags: 0
