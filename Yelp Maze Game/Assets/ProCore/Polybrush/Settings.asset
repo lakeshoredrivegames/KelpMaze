@@ -16,11 +16,12 @@ MonoBehaviour:
   - z_pref_lockBrushToFirst
   m_int_keys:
   - z_GIWorkflowMode
+  - prefab_previewThumbSize
   m_float_keys: []
   m_string_keys: []
   m_Color_keys: []
   m_bool_values: 01
-  m_int_values: 00000000
+  m_int_values: 0000000041000000
   m_float_values: []
   m_string_values: []
   m_Color_values: []
