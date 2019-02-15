@@ -301,10 +301,14 @@ MonoBehaviour:
     BobAmount: 0.1
   m_StepInterval: 5
   m_FootstepSounds:
-  - {fileID: 8300000, guid: 42e65e088b3f4374e851b8dbd38f3df9, type: 3}
-  - {fileID: 8300000, guid: 8bc94ec6ed537e743b481638bdcd503d, type: 3}
-  m_JumpSound: {fileID: 8300000, guid: 5897aeed9b676024fbb8c694b421a861, type: 3}
-  m_LandSound: {fileID: 8300000, guid: 3b09d59f4499d45428baa7a21e954296, type: 3}
+  - {fileID: 8300000, guid: f080bc5757d171e4789970fbd54375ac, type: 3}
+  - {fileID: 8300000, guid: 6495745596971b948b7b625ec5464980, type: 3}
+  m_JumpSound: {fileID: 8300000, guid: 5aeee173d855dd946b165713c1cb0d00, type: 3}
+  m_LandSound: {fileID: 8300000, guid: 6f92f593ad0487f419bff2eccd09623a, type: 3}
+  isPaused: 0
+  PauseText: {fileID: 0}
+  RestartButton: {fileID: 0}
+  QuitButton: {fileID: 0}
 --- !u!54 &1167811325
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -531,6 +535,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 415609952}
     m_Modifications:
+    - target: {fileID: 4687396866292237556, guid: aee58ad78a8a3d14ea5a28372bb2902f,
+        type: 3}
+      propertyPath: m_Name
+      value: ArmWithSword
+      objectReference: {fileID: 0}
+    - target: {fileID: 4687396866292237556, guid: aee58ad78a8a3d14ea5a28372bb2902f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4687396866292237557, guid: aee58ad78a8a3d14ea5a28372bb2902f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -584,16 +598,6 @@ PrefabInstance:
     - target: {fileID: 4687396866292237557, guid: aee58ad78a8a3d14ea5a28372bb2902f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4687396866292237556, guid: aee58ad78a8a3d14ea5a28372bb2902f,
-        type: 3}
-      propertyPath: m_Name
-      value: ArmWithSword
-      objectReference: {fileID: 0}
-    - target: {fileID: 4687396866292237556, guid: aee58ad78a8a3d14ea5a28372bb2902f,
-        type: 3}
-      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

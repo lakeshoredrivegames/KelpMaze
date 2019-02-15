@@ -116,7 +116,7 @@ MonoBehaviour:
   m_MinSize: {x: 913, y: 424}
   m_MaxSize: {x: 22008, y: 10024}
   vertical: 0
-  controlID: 7275
+  controlID: 1075
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 424}
   m_MaxSize: {x: 4002, y: 8024}
   vertical: 1
-  controlID: 7482
+  controlID: 989
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -489,9 +489,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f0b9ffff
-      m_LastClickedID: -17936
-      m_ExpandedIDs: b6a8fffffcb9ffffecfaffff944600001a5f0000
+      m_SelectedIDs: 0cf6ffff
+      m_LastClickedID: -2548
+      m_ExpandedIDs: 44faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -553,20 +553,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Sounds
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Sounds
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\LeoHe\Documents\GitHub\KelpMaze\Yelp Maze Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 06320000
-    m_LastClickedID: 12806
-    m_ExpandedIDs: 00000000a02b0000cc2b00006a2e0000843000000632000040320000bc330000e4330000283400003e350000643600002c370000e43700007c380000b0390000d6390000e2390000f6390000183a0000323a000000ca9a3b
+    m_SelectedIDs: 96290000
+    m_LastClickedID: 10646
+    m_ExpandedIDs: 0000000052290000802900001c2c0000442e0000ca2f00000630000084310000ac310000ee310000083300002a340000f4340000a8350000423600007a370000a0370000ac370000be370000e0370000fa37000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -594,7 +594,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: ae400000
     m_LastClickedID: 16558
-    m_ExpandedIDs: 00000000a02b0000cc2b00006a2e0000843000000632000040320000bc330000e4330000283400003e350000643600002c370000e43700007c380000b0390000d6390000e2390000f6390000183a0000323a000000ca9a3b
+    m_ExpandedIDs: 0000000052290000802900001c2c0000442e0000ca2f00000630000084310000ac310000ee310000083300002a340000f4340000a8350000423600007a370000a0370000ac370000be370000e0370000fa37000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -646,7 +646,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 835}
+    m_ScrollPosition: {x: 0, y: 439.42575}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 110
 --- !u!114 &17
