@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 7649618017291400955}
   - component: {fileID: 3088848530504507857}
   - component: {fileID: 3209085758331711034}
+  - component: {fileID: 4969281157669009337}
+  - component: {fileID: 2579823739631583504}
   m_Layer: 0
   m_Name: CampfirePoint
   m_TagString: Untagged
@@ -4703,6 +4705,32 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &4969281157669009337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698603030481908777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3470a0bb5cfef3438ee5c772755fc96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightToSwitch: {fileID: 5221081117724330931}
+--- !u!65 &2579823739631583504
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698603030481908777}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 21.678123, y: 5.7100015, z: 29.049076}
+  m_Center: {x: -0.00002855734, y: 2.5000005, z: 0.0000026360624}
 --- !u!1 &768108041505201806
 GameObject:
   m_ObjectHideFlags: 0
