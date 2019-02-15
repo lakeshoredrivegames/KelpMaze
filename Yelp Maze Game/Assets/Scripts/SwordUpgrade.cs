@@ -1,18 +1,29 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
+[RequireComponent(typeof(AudioSource))]
 public class SwordUpgrade : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public AudioClip newSword;
+    AudioSource audioSource;
+    
+    private float counter = 0;
+    private void Start()
 
-    // Update is called once per frame
-    void Update()
     {
-        
+        audioSource = GetComponent<AudioSource>();
+    }
+    
+
+    public void OnTriggerEnter(Collider other) 
+    {
+
+        if (other.gameObject.CompareTag("Player") && (counter < 1))        
+            {
+                audioSource.PlayOneShot(newSword,0.9f);
+                counter++;
+            }
     }
 }
