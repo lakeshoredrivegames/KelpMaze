@@ -20,7 +20,10 @@ namespace KelpMaze.Gameplay
         void Start()
         {
             startTime = UnityEngine.Time.time;
-            isTiming = true;
+                SetCurrentTime();
+                SetMinutesOfCurrentTime();
+                SetSecondsOfCurrentTime();
+                SetTimerText();
         }
 
         /*! Game loop */
@@ -83,7 +86,7 @@ namespace KelpMaze.Gameplay
         public bool isTiming;
 
         private float startTime;
-        private float currentTime;
+        public float currentTime;
         private string minutes;
         private string[] seconds;
     }

@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HookedCondition.unity
     guid: 8d373461d3eb3c9448fdec63811409ab
+  - enabled: 1
+    path: Assets/Scenes/WinScreen.unity
+    guid: 0f3f1d1010c111c4aafa2c39ed75ad1b
   m_configObjects: {}
