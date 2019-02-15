@@ -3,20 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class WinCondition : MonoBehaviour
+namespace KelpMaze.Gameplay
 {
-    void OnTriggerEnter(Collider other)
+    public class WinCondition : MonoBehaviour
     {
-        if (other.gameObject.CompareTag("Player"))
+        void OnTriggerEnter(Collider other)
         {
-            winGame();
+            if (other.gameObject.CompareTag("Player"))
+            {
+                winGame();
+                Timer timer = GameObject.Find("WorldManager").GetComponent<Timer>();
+                PlayerPrefs.SetFloat("lastPlayTime", timer.currentTime);
+            }
+
         }
 
-    }
-
-    // Update is called once per frame
-    void winGame()
-    {
-        SceneManager.LoadScene(3);
+        // Update is called once per frame
+        void winGame()
+        {
+            SceneManager.LoadScene("WinScreen");
+        }
     }
 }
