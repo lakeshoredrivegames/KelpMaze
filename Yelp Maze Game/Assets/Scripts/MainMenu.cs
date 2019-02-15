@@ -29,15 +29,11 @@ public class MainMenu : MonoBehaviour
 
     public void OptionsMenu()
     {
-        hutSoundSource.clip = buttonPress;
-        hutSoundSource.Play();
         SceneManager.LoadScene("OptionsMenu");
     }
 
     public void QuitGame()
     {
-        hutSoundSource.clip = buttonPress;
-        hutSoundSource.Play();
         Application.Quit();
     }
 
