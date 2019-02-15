@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 548}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -44,10 +44,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 683, y: 498}
-  m_MaxSize: {x: 14004, y: 14048}
+  m_MinSize: {x: 679, y: 498}
+  m_MaxSize: {x: 14002, y: 14048}
   vertical: 0
-  controlID: 137
+  controlID: 117
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -67,8 +67,8 @@ MonoBehaviour:
     y: 0
     width: 311
     height: 731
-  m_MinSize: {x: 277, y: 74}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -215,10 +215,10 @@ MonoBehaviour:
     y: 0
     width: 1225
     height: 731
-  m_MinSize: {x: 406, y: 498}
+  m_MinSize: {x: 404, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 73
+  controlID: 51
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -240,10 +240,10 @@ MonoBehaviour:
     y: 0
     width: 1225
     height: 457
-  m_MinSize: {x: 406, y: 224}
-  m_MaxSize: {x: 8006, y: 4024}
+  m_MinSize: {x: 404, y: 224}
+  m_MaxSize: {x: 8004, y: 4024}
   vertical: 0
-  controlID: 74
+  controlID: 52
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -265,13 +265,13 @@ MonoBehaviour:
     height: 457
   m_MinSize: {x: 204, y: 224}
   m_MaxSize: {x: 4004, y: 4024}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -336,20 +336,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\LeoHe\Documents\GitHub\KelpMaze\Yelp Maze Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 327}
-    m_SelectedIDs: 22300000
-    m_LastClickedID: 12322
-    m_ExpandedIDs: 000000004829000098290000c82900006a2c00009c2e0000223000004830000060300000ce310000e8310000123200005c3200007c330000a6340000743500003a360000da360000143800003a380000483800005c3800008438000000ca9a3b
+    scrollPos: {x: 0, y: 267}
+    m_SelectedIDs: 6e310000
+    m_LastClickedID: 12654
+    m_ExpandedIDs: 00000000de2800000e290000b42b0000ea2d0000742f00009c2f0000b42f00002a310000443100006e310000b8310000d83200000a340000da340000a03500003e360000783700009e370000ac370000c0370000e2370000fc37000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -377,7 +377,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004829000098290000c82900006a2c00009c2e0000223000004830000060300000ce310000e8310000123200005c3200007c330000a6340000743500003a360000da360000143800003a380000483800005c38000084380000
+    m_ExpandedIDs: 00000000de2800000e290000b42b0000ea2d0000742f00009c2f0000b42f00002a310000443100006e310000b8310000d83200000a340000da340000a03500003e360000783700009e370000ac370000c0370000e2370000fc370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -496,9 +496,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: e22f0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 0048ffff1869ffff0488ffff08baffff78faffffc83c0000a84f0200
+      m_ExpandedIDs: fe29ffff387fffffba9dffff2e9effff66a5ffff8cb8ffff42faffff663c000024470000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -514,7 +514,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -546,17 +546,17 @@ MonoBehaviour:
     x: 303.2
     y: 73.6
     width: 918
-    height: 422
+    height: 437
   m_PersistentViewDataDictionary: {fileID: 0}
   m_WindowGUID: 3b9df808f5eafe943a6d15956aff8dc0
-  m_SceneLighting: 1
+  m_SceneLighting: 0
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -37.660667, y: -33.459442, z: -10.836961}
+    m_Target: {x: 104.52847, y: -39.146, z: -16.477524}
     speed: 2
-    m_Value: {x: -37.660667, y: -33.459442, z: -10.836961}
+    m_Value: {x: 104.52847, y: -39.146, z: -16.477524}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -584,13 +584,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.32229018, y: 0.57045716, z: -0.25908008, w: -0.7096374}
+    m_Target: {x: -0.19797768, y: 0.6426313, z: -0.17703035, w: -0.7186726}
     speed: 2
-    m_Value: {x: -0.32229018, y: 0.57045716, z: -0.25908008, w: -0.7096374}
+    m_Value: {x: -0.19797768, y: 0.6426313, z: -0.17703035, w: -0.7186726}
   m_Size:
-    m_Target: 7.7290764
+    m_Target: 2.1183941
     speed: 2
-    m_Value: 7.7290764
+    m_Value: 2.1183941
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -650,7 +650,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1

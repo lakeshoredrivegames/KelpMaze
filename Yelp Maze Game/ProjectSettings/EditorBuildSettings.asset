@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WinScreen.unity
     guid: 0f3f1d1010c111c4aafa2c39ed75ad1b
+  - enabled: 1
+    path: Assets/Scenes/HookedScene.unity
+    guid: 8c1a90fcfa882c343874f61db2202a3b
+  - enabled: 1
+    path: Assets/Scenes/SpikedScene.unity
+    guid: e5a70ad4c25ca8f4cbf50befa7f7ecbc
   m_configObjects: {}
