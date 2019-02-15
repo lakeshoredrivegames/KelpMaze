@@ -18,6 +18,12 @@ namespace KelpMaze.Gameplay
             else
             {
                 Debug.Log("Swinging the sword!");
+
+                // Play particle
+                playerParticles = player.GetComponent<ParticleSystem>();
+                playerParticles.Emit(10);
+
+
                 Animator anim;
                 if(player.swordLevel == 1)
                 {
@@ -61,5 +67,6 @@ namespace KelpMaze.Gameplay
         private float swordCooldown = 1f;
         private bool isCooling;
         private float swordCooldownTime;
+        private ParticleSystem playerParticles;
     }
 }
