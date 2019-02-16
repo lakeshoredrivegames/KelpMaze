@@ -14,15 +14,7 @@ namespace KelpMaze.Gameplay
             playerSpeed = playerController.m_WalkSpeed;
         }
         public override void Execute(PlayerManager player)
-        {   
-            Animator anim;
-            anim = player.conchMesh.GetComponent<Animator>();
-
-            if (anim != null)
-                {
-                    anim.Play("ConchRattle");
-                }
-
+        {
             if(!isGlobalCooling)
             {
                 if(isCooling)
