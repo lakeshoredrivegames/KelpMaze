@@ -43,7 +43,7 @@ namespace KelpMaze.Gameplay
                     player.audio.Play();
                     isCooling = true;
                     conchCooldownTime = Time.time + conchCooldown;
-                    playerController.m_WalkSpeed = playerSpeed + 1f;
+                    playerController.m_WalkSpeed = playerSpeed + 2f;
                     playerController.upgradeCoolDown = Time.time + conchUpgradeCooldown;
                 }
 
@@ -63,7 +63,7 @@ namespace KelpMaze.Gameplay
         private FirstPersonController playerController;
 
         private List<AudioClip> noClips;
-        private float conchCooldown = 20f;
+        private float conchCooldown = 15f;
         private float conchUpgradeCooldown = 5f;
         private bool isCooling;
         private float conchCooldownTime;
