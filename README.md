@@ -1,9 +1,9 @@
 # KelpMaze
 
 ## Software
-Unity v2018.3.5f1
-Maya
-FMOD 2.0
+- Unity v2018.3.5f1
+- Maya
+- FMOD 2.0
 
 ## Elevator pitch
 Kelp Maze is based on the Spongebob Episode ["Club Spongebob"](https://www.dailymotion.com/video/x6nnw00). You play as the club ranger that must use his sword to cut through underwater kelp and flora, while using the conch to find your way to Spongebob, Patrick and Squidward before they starve. 
