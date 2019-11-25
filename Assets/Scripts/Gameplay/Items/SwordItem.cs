@@ -6,12 +6,6 @@ namespace KelpMaze.Gameplay
 {
     public class SwordItem : Equipable
     {
-        private float maxAttackRange = 1.5f;
-        private float swordCooldown = 0.5f;
-        private bool isCooling;
-        private float swordCooldownTime;
-        private ParticleSystem playerParticles;
-        
         public override void Execute(PlayerManager player)
         {
             if (isCooling)
@@ -70,6 +64,10 @@ namespace KelpMaze.Gameplay
             }
         }
 
-        
+        private float maxAttackRange = 1f;
+        private float swordCooldown = 0.5f;
+        private bool isCooling;
+        private float swordCooldownTime;
+        private ParticleSystem playerParticles;
     }
 }
